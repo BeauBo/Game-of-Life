@@ -1,0 +1,39 @@
+{
+  "name": "game-of-life",
+  "version": "0.0.1",
+  "description": "freeCodeCamp React project",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --hot --inline --port $PORT --host $IP --public game-of-life-1-beaubo0704.c9users.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeauBo/Game-of-Life.git"
+  },
+  "author": "BeauBo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeauBo/Game-of-Life/issues"
+  },
+  "homepage": "https://github.com/BeauBo/Game-of-Life#readme"
+}

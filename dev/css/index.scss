@@ -1,0 +1,48 @@
+$lightGray : #686865;
+$darkGray : #282825;
+$cell : #301308;
+$title:  #301308;
+
+body{
+    background: -webkit-radial-gradient(circle,$lightGray,$darkGray);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: $title;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+.app{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 15;
+    height: 15;
+    border: 1px solid $darkGray;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.on {
+    background-color: $cell;
+}
+
+.off {
+    background-color: $lightGray;
+}
+
+.grid {
+    margin: 30px auto;
+    box-shadow: 0 0 20px $lightGray;
+}
+
+.btn-toolbar{
+    margin-left: 235px;
+    margin-top : 20px;
+    
+}
